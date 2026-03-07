@@ -1,13 +1,11 @@
+/*
+ * CHALLENGE: The Oath
+ * Write a program that prints "I will not quit, Drill Sergeant!" to the screen.
+ */
 
 #include <stdio.h>
 
 int main() {
-    char name[50];
-
-    printf("Enter your name: "); // No \n here
-    scanf("%s",name);
-
-    printf("Hello, %s!\n", name); // Added \n here for a clean exit
-    printf("modified");
+    printf("I will not quit, Drill Sergeant!\n");
     return 0;
 }
