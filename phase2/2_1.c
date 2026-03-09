@@ -5,6 +5,7 @@ int main() {
 int a;
 printf("Enter an integer: ");
 scanf("%d", &a);
+// The single line logic
 if (a % 2 == 0)
 {
 printf("'%d' is even Number\n",a);
