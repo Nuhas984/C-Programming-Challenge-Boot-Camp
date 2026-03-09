@@ -14,5 +14,11 @@ printf("Enter integer a:");
 scanf("%d", &a);
 printf("Enter integer b:");
 scanf("%d", &b);
+temp = a;
+a = b;
+b = temp;
+printf("Your number gets a swap\n");
+printf("now a: %d, b:%d",a,b);
+
     return 0;
 }
