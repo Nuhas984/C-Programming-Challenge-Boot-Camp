@@ -7,13 +7,15 @@ int main()
     srand(time(NULL)); // for unique random number
     int number = (rand() % 100) + 1;
     int guess;
+    int attempts = 0;
     do
     {
         printf("Enter a guess: \n");
         scanf("%d", &guess);
+        attempts ++;
         if (guess == number)
         {
-            printf("Correct!\n");
+            printf("Congrates! You take %d guesses\n",attempts);
         }
         else if (guess < number)
         {
